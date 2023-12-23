@@ -5,6 +5,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo omni_itel-S662LCN-user
-add_lunch_combo omni_itel-S662LCN-userdebug
-add_lunch_combo omni_itel-S662LCN-eng
+add_lunch_combo twrp_S662LCN-eng
