@@ -5,4 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+add_lunch_combo twrp_S662LCN-user
+add_lunch_combo twrp_S662LCN-userdebug
 add_lunch_combo twrp_S662LCN-eng
+
