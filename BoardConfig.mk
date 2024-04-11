@@ -78,6 +78,8 @@ BOARD_INCLUDE_DTB_IN_BOOTIMG :=
 endif
 #vendor_boot ramdisk uses lz4 compression
 BOARD_RAMDISK_USE_LZ4 := true
+#vendor dlkm
+BOARD_USES_VENDOR_DLKMIMAGE   := true
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 262144 # (BOARD_KERNEL_PAGESIZE * 64)
