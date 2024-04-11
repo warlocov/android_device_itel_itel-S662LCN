@@ -75,7 +75,6 @@ TARGET_NO_RECOVERY := true
 TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb.img
 BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
 BOARD_INCLUDE_DTB_IN_BOOTIMG := 
-endif
 #vendor_boot ramdisk uses lz4 compression
 BOARD_RAMDISK_USE_LZ4 := true
 #vendor dlkm
