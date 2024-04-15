@@ -7,6 +7,9 @@
 
 LOCAL_PATH := device/itel/S662LCN
 # A/B
+
+PRODUCT_TARGET_VNDK_VERSION := 30
+
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
     POSTINSTALL_PATH_system=system/bin/otapreopt_script \
